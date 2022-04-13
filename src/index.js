@@ -9,8 +9,8 @@ const inputEl = document.getElementById('search-box');
 const listEl = document.querySelector('.country-list');
 const infoEl = document.querySelector('.country-info');
 
-const clearButton = document.querySelector('.clear-button')
-clearButton.addEventListener('click', clear)
+const clearButton = document.querySelector('.clear-button');
+clearButton.addEventListener('click', clear);
 function clear (){
 inputEl.value = '';
 
