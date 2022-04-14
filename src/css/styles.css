@@ -14,9 +14,15 @@ body {
 
 #search-box {
   font: inherit;
+  font-size: 24px;
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgb(154 160 185 / 5%), 
+              0 15px 40px rgb(0 0 0 / 10%);;
+
 }
 .clear-button{
   width: 2em;
