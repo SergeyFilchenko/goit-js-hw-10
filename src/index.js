@@ -14,6 +14,7 @@ clearButton.addEventListener('click', clear);
 function clear (){
 inputEl.value = '';
 infoEl.innerHTML = '';
+listEl.innerHTML ='';
 
 }
 const cleanMarkup = ref => (ref.innerHTML = '');
