@@ -13,6 +13,7 @@ const clearButton = document.querySelector('.clear-button');
 clearButton.addEventListener('click', clear);
 function clear (){
 inputEl.value = '';
+infoEl.innerHTML = '';
 
 }
 const cleanMarkup = ref => (ref.innerHTML = '');
